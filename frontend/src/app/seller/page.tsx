@@ -8,7 +8,7 @@ import {
   CheckCircle, Clock, XCircle
 } from 'lucide-react';
 
-const API = 'http://localhost:5000/api/seller';
+const API = `${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'}/api/seller`;
 
 interface Stats {
   productsCount: number;

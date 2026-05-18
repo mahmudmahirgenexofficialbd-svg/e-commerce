@@ -7,7 +7,7 @@ import {
   LayoutDashboard, Package, ShoppingCart, Users, Save, X 
 } from 'lucide-react';
 
-const API = 'http://localhost:5000/api/admin';
+const API = `${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'}/api/admin`;
 
 interface Product {
   _id: string;

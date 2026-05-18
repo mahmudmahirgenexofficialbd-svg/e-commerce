@@ -16,7 +16,7 @@ export default function ProfilePage() {
 
   const fetchProfile = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/users/profile', {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'}/api/users/profile`, {
         credentials: 'include'
       });
       if (res.ok) {
@@ -35,7 +35,7 @@ export default function ProfilePage() {
 
   const handleLogout = async () => {
     try {
-      await fetch('http://localhost:5000/api/users/logout', { method: 'POST', credentials: 'include' });
+      await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'}/api/users/logout`, { method: 'POST', credentials: 'include' });
       router.push('/login');
     } catch (err) {
       console.error(err);

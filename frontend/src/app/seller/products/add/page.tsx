@@ -45,7 +45,7 @@ export default function AddProductPage() {
     setError('');
 
     try {
-      const res = await fetch('http://localhost:5000/api/seller/products', {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'}/api/seller/products`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         credentials: 'include',

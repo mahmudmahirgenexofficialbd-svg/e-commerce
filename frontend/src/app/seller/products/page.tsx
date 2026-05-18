@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { LayoutDashboard, Package, ShoppingCart, Settings, LogOut, Plus, CheckCircle, Clock, XCircle } from 'lucide-react';
 
-const API = 'http://localhost:5000/api/seller';
+const API = `${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'}/api/seller`;
 
 const SellerSidebar = ({ active }: { active: string }) => (
   <aside className="w-64 bg-white border-r border-slate-200 hidden md:flex flex-col fixed h-full z-10">

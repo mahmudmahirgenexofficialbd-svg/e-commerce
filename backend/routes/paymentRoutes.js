@@ -23,14 +23,15 @@ router.post('/init', protect, async (req, res) => {
 
     const tran_id = `REF-${Math.floor(Math.random() * 10000000)}`;
 
+    const backendUrl = process.env.BACKEND_URL || 'https://bechakena.onrender.com';
     const data = {
       total_amount: order.totalPrice,
       currency: 'BDT',
       tran_id: tran_id,
-      success_url: `http://localhost:5000/api/payments/success/${tran_id}`,
-      fail_url: `http://localhost:5000/api/payments/fail/${tran_id}`,
-      cancel_url: `http://localhost:5000/api/payments/cancel/${tran_id}`,
-      ipn_url: 'http://localhost:5000/api/payments/ipn',
+      success_url: `${backendUrl}/api/payments/success/${tran_id}`,
+      fail_url: `${backendUrl}/api/payments/fail/${tran_id}`,
+      cancel_url: `${backendUrl}/api/payments/cancel/${tran_id}`,
+      ipn_url: `${backendUrl}/api/payments/ipn`,
       shipping_method: 'Courier',
       product_name: 'BeachaKena Store Products',
       product_category: 'General',

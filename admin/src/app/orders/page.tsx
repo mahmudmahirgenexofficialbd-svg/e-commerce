@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { LayoutDashboard, Package, ShoppingCart, Users, Search, CheckCircle, Truck, XCircle } from 'lucide-react';
 
-const API = 'http://localhost:5000/api/admin';
+const API = `${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'}/api/admin`;
 
 interface Order {
   _id: string;
