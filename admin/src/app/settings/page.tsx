@@ -8,7 +8,7 @@ export default function SettingsPage() {
     <div className="min-h-screen flex bg-slate-50">
       <aside className="w-64 bg-white border-r border-slate-200 hidden md:flex flex-col fixed h-full z-10">
         <div className="h-16 flex items-center px-6 border-b border-slate-100">
-          <span className="text-xl font-bold text-slate-800">Antigravity Admin</span>
+          <span className="text-xl font-bold text-slate-800">বেচা-কেনা Admin</span>
         </div>
         <div className="flex-1 py-6 px-4 flex flex-col gap-1">
           <Link href="/" className="flex items-center gap-3 px-3 py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl font-medium">

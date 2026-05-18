@@ -3,14 +3,14 @@ import bcrypt from 'bcrypt';
 const users = [
   {
     name: 'Admin User',
-    email: 'admin@antigravity.com',
+    email: 'admin@beachakena.com',
     password: 'password123',
     role: 'admin',
     isVerified: true,
   },
   {
     name: 'TechAudio BD Seller',
-    email: 'seller@antigravity.com',
+    email: 'seller@beachakena.com',
     password: 'password123',
     role: 'seller',
     isVerified: true,

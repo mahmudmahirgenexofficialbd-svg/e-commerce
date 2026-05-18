@@ -79,7 +79,7 @@ export default function Home() {
     <div className="min-h-screen bg-slate-50">
       {/* Quick Access Banner */}
       <div className="fixed top-0 w-full z-[60] bg-slate-900 text-white text-xs py-2 px-4 flex items-center justify-between">
-        <span className="text-slate-400">🛍️ Antigravity Marketplace</span>
+        <span className="text-slate-400">🛍️ বেচা-কেনা (BeachaKena) Marketplace</span>
         <div className="flex items-center gap-4">
           <Link href="/seller" className="flex items-center gap-1.5 text-slate-300 hover:text-white smooth-transition font-medium">
             <Store className="h-3.5 w-3.5" /> Seller Dashboard
@@ -101,7 +101,7 @@ export default function Home() {
                 <ShoppingBag className="text-white h-6 w-6" />
               </div>
               <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent tracking-tight">
-                Antigravity
+                বেচা-কেনা
               </span>
             </Link>
 

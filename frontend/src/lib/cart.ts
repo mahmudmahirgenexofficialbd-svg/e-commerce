@@ -9,7 +9,7 @@ export interface CartItem {
   image: string;
 }
 
-const CART_KEY = 'antigravity_cart';
+const CART_KEY = 'beachakena_cart';
 
 export function getCart(): CartItem[] {
   if (typeof window === 'undefined') return [];

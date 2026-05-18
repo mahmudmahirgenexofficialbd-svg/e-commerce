@@ -30,7 +30,7 @@ app.use('/api/admin', adminRoutes);
 
 // Test route
 app.get('/', (req, res) => {
-  res.send('Antigravity API is running...');
+  res.send('BeachaKena API is running...');
 });
 
 app.listen(PORT, () => {

@@ -32,7 +32,7 @@ router.post('/init', protect, async (req, res) => {
       cancel_url: `http://localhost:5000/api/payments/cancel/${tran_id}`,
       ipn_url: 'http://localhost:5000/api/payments/ipn',
       shipping_method: 'Courier',
-      product_name: 'Antigravity Store Products',
+      product_name: 'BeachaKena Store Products',
       product_category: 'General',
       product_profile: 'general',
       cus_name: order.user.name,

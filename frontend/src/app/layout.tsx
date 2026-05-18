@@ -10,7 +10,7 @@ const hindSiliguri = Hind_Siliguri({
 });
 
 export const metadata: Metadata = {
-  title: "Antigravity | Premium E-Commerce Platform",
+  title: "বেচা-কেনা (BeachaKena) | Premium E-Commerce Platform",
   description: "The ultimate shopping experience in Bangladesh.",
 };
 

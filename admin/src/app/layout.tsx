@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Antigravity Admin Panel",
-  description: "Secure Admin Control Panel for Antigravity Platform",
+  title: "বেচা-কেনা (BeachaKena) Admin Panel",
+  description: "Secure Admin Control Panel for BeachaKena Platform",
 };
 
 export default function RootLayout({

@@ -58,7 +58,7 @@ export default function RegisterPage() {
           </div>
           
           <h2 className="text-2xl font-bold text-center text-slate-800 mb-2">Create Account</h2>
-          <p className="text-center text-slate-500 mb-8 text-sm">Join the Antigravity ecosystem</p>
+          <p className="text-center text-slate-500 mb-8 text-sm">Join the BeachaKena ecosystem</p>
 
           {error && (
             <div className="bg-red-50 text-red-500 text-sm p-3 rounded-xl mb-4 border border-red-100">

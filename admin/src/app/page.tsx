@@ -87,7 +87,7 @@ export default function AdminDashboard() {
             <div className="bg-primary p-1.5 rounded-lg">
               <ShoppingBag className="text-white h-5 w-5" />
             </div>
-            <span className="text-xl font-bold text-slate-800">Antigravity</span>
+            <span className="text-xl font-bold text-slate-800">বেচা-কেনা</span>
           </div>
         </div>
         

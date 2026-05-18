@@ -59,7 +59,7 @@ export default function LoginPage() {
           </div>
           
           <h2 className="text-2xl font-bold text-center text-slate-800 mb-2">Welcome Back</h2>
-          <p className="text-center text-slate-500 mb-8 text-sm">Sign in to your Antigravity account</p>
+          <p className="text-center text-slate-500 mb-8 text-sm">Sign in to your BeachaKena account</p>
 
           {error && (
             <div className="bg-red-50 text-red-500 text-sm p-3 rounded-xl mb-4 border border-red-100">
